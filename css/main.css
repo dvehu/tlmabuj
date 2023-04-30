@@ -49,6 +49,10 @@ body.messages {
     padding-right: 20px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 /* p{
     font-size: 20px;
     font-weight: 500;
