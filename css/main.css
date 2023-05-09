@@ -142,7 +142,7 @@ a {
     background-color: rgba(255, 255, 255);
     /* box-shadow: 2px 1px 10px #999; */
     transition: all 1s ease-in-out;
-    z-index: 10;
+    z-index: 9;
     
     position: fixed;
     top: 25px;
@@ -199,13 +199,35 @@ a {
     left: 80px;
     right: 80px;
     border-top: 3px solid #fab201;
-    padding: 50px ;
+    padding: 50px;
     white-space: initial;
     text-align: initial;;
 
     width:auto;
     border-radius: 0;
-    z-index: -10;
+    z-index: 999999990;
+}
+
+.hover-wrapper-flex a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    letter-spacing: normal;
+}
+
+.hover-wrapper-flex p.get-info {
+    font-size: 12px;
+    padding-bottom: 30px;
+    width: 100%;
+}
+
+.hover-wrapper-flex button {
+    margin-left: 0;
+    white-space: nowrap;
+}
+
+.hover-get-info {
+    margin-right: 20px;
+    width: 40%;
 }
 
 .hover-wrapper-flex {
@@ -444,25 +466,6 @@ div .excell h3,
   
 
 /* End News-letter hover styles */
-.hover-wrapper-flex a:hover {
-    text-decoration: underline;
-    cursor: pointer;
-    letter-spacing: normal;
-}
-
-.hover-wrapper-flex p.get-info {
-    font-size: 12px;
-    padding-bottom: 30px;
-    width: 350px;
-}
-
-.hover-wrapper-flex button {
-    margin-left: 0;
-}
-
-.hover-get-info {
-    margin-right: 20px;
-}
 
 Button {
     background-color: #fab201;

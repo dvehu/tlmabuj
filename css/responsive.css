@@ -1,7 +1,7 @@
 
 /* Start- Contact */
 
-@media only screen and (max-width: 913px) {
+@media (max-width: 913px) {
 
   .map {
     padding: 0px 100px 50px 100px;
@@ -37,18 +37,24 @@
   }
 
   .values {
-    
+  font-weight: 100 !important;  
   }
 } 
     
-@media only screen and (max-width: 415px) {
+@media (max-width: 415px) {
   .map {
     padding: 0px 10px 50px 10px;
   }
 }
 
+@media (max-width: 451px) {
+
+  .hover-get-info {
+    width: 100%;
+  }
+}
     
-@media only screen and (max-width: 561px) {
+@media (max-width: 561px) {
 
   .write-up h2 {
     font-size: 15px;
@@ -110,7 +116,7 @@
 }
   
   
-@media only screen and (min-width:416px) and (max-width: 541px) {
+@media (min-width:416px) and (max-width: 541px) {
   .map {
     padding: 0px 50px 50px 50px;
   }
@@ -118,7 +124,7 @@
 }
 
     
-@media only screen and (max-width: 281px) {
+@media (max-width: 281px) {
   .contact-container .contactInfo .box {
       display: flex;
       flex-direction: column;
@@ -134,13 +140,6 @@
     padding: 10px;
   }
 }
-
-@media (max-width: 920px) {
-  .navItems ul li:hover .div-hover .newsletter-hover{
-    display: none;
-  }
-}
-
 
 @media (max-width: 912px) {
 
@@ -183,7 +182,6 @@
   }
 
   .navBar {
-    padding: 0 80px;
     justify-content: space-between;
   }
 
@@ -245,9 +243,10 @@
   cursor: pointer;
 }
 
-.navItems ul li:hover .div-hover {
-  display: none;
+.hover-wrapper-flex h2 {
+  font-size: 25px;
 }
+
 
 .navItems .home {
   margin-left: -30px !important;
@@ -297,7 +296,7 @@
 
 .swiper-button-next,
   .swiper-button-prev {
-    display: none;
+    display: none !important;
   }
   
 .firstSection div { 
@@ -337,6 +336,12 @@
   flex-direction: column-reverse;
 }
 
+.hover-wrapper-flex {
+  flex-wrap: wrap;
+}
+
+.navItems ul li:hover .div-hover {
+  padding: 50px 20px;
 }
 
 @media (max-width: 931px) {
@@ -350,7 +355,7 @@
 
 
 /* Social Media Styles */
-@media only screen and (max-width: 764px) {
+@media (max-width: 764px) {
 
   .social-media-wrapper {
     width: 50%;
@@ -358,7 +363,7 @@
   }  
 }
 
-@media only screen and (max-width: 764px) {
+@media (max-width: 764px) {
       .name {
           display: nne;
       }
@@ -433,7 +438,7 @@
   
   
   
-  @media only screen and (min-width: 764px) {
+  @media (min-width: 764px) {
   
     #mobile_navbar {
       display: none;
@@ -459,14 +464,10 @@
     .newstext p {
       text-align: center;
     }
-  
-
-  
-  
   }
   
     /* small phones */
-    @media only screen and (max-width: 345px) {
+    @media (max-width: 345px) {
   
       .footer {
         padding: 5px 10px;
@@ -477,7 +478,7 @@
         padding-right: 10px;
     }
 
-    @media only screen and (max-width: 394px) {
+    @media (max-width: 394px) {
         .footer .about,
           .footer .enquire,
           .footer .connectJoindept,
